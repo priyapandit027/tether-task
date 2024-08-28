@@ -1,0 +1,28 @@
+{
+    "name": "simple-rpc-example",
+    "version": "1.0.0",
+    "description": "A simple example of an RPC Server and Client using Hyperdht and Hyperswarm RPC",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "bootstrap": "hyperdht --bootstrap --host 127.0.0.1 --port 30001"
+    },
+    "keywords": [
+        "rpc",
+        "hyperdht",
+        "hyperswarm",
+        "hypercore",
+        "hyperbee",
+        "hyperdht"
+    ],
+    "author": "Priya Pandit",
+    "license": "ISC",
+    "dependencies": {
+        "@hyperswarm/rpc": "3.3.2",
+        "dht-rpc": "^6.12.1",
+        "hp-rpc-cli": "^0.0.5",
+        "hyperbee": "^2.0.0",
+        "hypercore": "^10.0.0",
+        "hyperdht": "^6.5.3"
+    }
+}
